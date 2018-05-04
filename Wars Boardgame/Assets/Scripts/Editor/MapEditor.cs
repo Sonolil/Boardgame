@@ -2,6 +2,8 @@
 using UnityEditor;
 using System.Collections;
 
+//맵 에디터
+
 [CustomEditor (typeof(HexTile))]
 [CanEditMultipleObjects]
 public class MapEditor : Editor {
